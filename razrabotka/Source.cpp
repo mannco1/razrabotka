@@ -1,3 +1,5 @@
+// -*- coding: utf-8 -*-
+
 #include <iostream>
 #include <cmath>
 #include"Header.h"
@@ -36,16 +38,16 @@ void solver::SolveEquation(double a, double b, double c) {
 
 
 void Level1() {
-    std::cout << "Âû íàõîäèòåñü íà óðîâíå 1." << std::endl;
-    // Ëîãèêà óðîâíÿ 1
+    std::cout << "Ã‚Ã» Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã¥Ã±Ã¼ Ã­Ã  Ã³Ã°Ã®Ã¢Ã­Ã¥ 1." << std::endl;
+    // Ã‹Ã®Ã£Ã¨ÃªÃ  Ã³Ã°Ã®Ã¢Ã­Ã¿ 1
 
     while (true) {
-        std::cout << "Âûáåðèòå äåéñòâèå:" << std::endl;
-        std::cout << "1. Âûáåðàòü òèï óðàâíåíèÿ" << std::endl;
-        std::cout << "2. Àâòîïîðåäåëåíèÿ(Alfa-test)" << std::endl;
-        std::cout << "3. Ïåðåéòè íà óðîâåíü 2" << std::endl;
-        std::cout << "4. Âûõîä" << std::endl;
-        std::cout << "Âûáîð: ";
+        std::cout << "Ã‚Ã»Ã¡Ã¥Ã°Ã¨Ã²Ã¥ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã¥:" << std::endl;
+        std::cout << "1. Ã‚Ã»Ã¡Ã¥Ã°Ã Ã²Ã¼ Ã²Ã¨Ã¯ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿" << std::endl;
+        std::cout << "2. Ã€Ã¢Ã²Ã®Ã¯Ã®Ã°Ã¥Ã¤Ã¥Ã«Ã¥Ã­Ã¨Ã¿(Alfa-test)" << std::endl;
+        std::cout << "3. ÃÃ¥Ã°Ã¥Ã©Ã²Ã¨ Ã­Ã  Ã³Ã°Ã®Ã¢Ã¥Ã­Ã¼ 2" << std::endl;
+        std::cout << "4. Ã‚Ã»ÃµÃ®Ã¤" << std::endl;
+        std::cout << "Ã‚Ã»Ã¡Ã®Ã°: ";
 
         int choice;
         std::cin >> choice;
@@ -61,25 +63,25 @@ void Level1() {
             Level2();
         }
         else if (choice == 4) {
-            std::cout << "Âûõîä èç ïðîãðàììû." << std::endl;
+            std::cout << "Ã‚Ã»ÃµÃ®Ã¤ Ã¨Ã§ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã»." << std::endl;
             return;
         }
         else {
-            std::cout << "Íåâåðíûé âûáîð. Ïîïðîáóéòå åùå ðàç." << std::endl;
+            std::cout << "ÃÃ¥Ã¢Ã¥Ã°Ã­Ã»Ã© Ã¢Ã»Ã¡Ã®Ã°. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã¥Ã¹Ã¥ Ã°Ã Ã§." << std::endl;
         }
     }
 }
 
 void Level2() {
-    std::cout << "Âû íàõîäèòåñü íà óðîâíå 2." << std::endl;
-    // Ëîãèêà óðîâíÿ 2
+    std::cout << "Ã‚Ã» Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã¥Ã±Ã¼ Ã­Ã  Ã³Ã°Ã®Ã¢Ã­Ã¥ 2." << std::endl;
+    // Ã‹Ã®Ã£Ã¨ÃªÃ  Ã³Ã°Ã®Ã¢Ã­Ã¿ 2
 
     while (true) {
-        std::cout << "Âûáåðèòå äåéñòâèå:" << std::endl;
-        std::cout << "1. Ïåðåéòè íà óðîâåíü 3" << std::endl;
-        std::cout << "2. Âåðíóòüñÿ íà óðîâåíü 1" << std::endl;
-        std::cout << "3. Âûõîä" << std::endl;
-        std::cout << "Âûáîð: ";
+        std::cout << "Ã‚Ã»Ã¡Ã¥Ã°Ã¨Ã²Ã¥ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã¥:" << std::endl;
+        std::cout << "1. ÃÃ¥Ã°Ã¥Ã©Ã²Ã¨ Ã­Ã  Ã³Ã°Ã®Ã¢Ã¥Ã­Ã¼ 3" << std::endl;
+        std::cout << "2. Ã‚Ã¥Ã°Ã­Ã³Ã²Ã¼Ã±Ã¿ Ã­Ã  Ã³Ã°Ã®Ã¢Ã¥Ã­Ã¼ 1" << std::endl;
+        std::cout << "3. Ã‚Ã»ÃµÃ®Ã¤" << std::endl;
+        std::cout << "Ã‚Ã»Ã¡Ã®Ã°: ";
 
         int choice;
         std::cin >> choice;
@@ -91,24 +93,24 @@ void Level2() {
             return;
         }
         else if (choice == 3) {
-            std::cout << "Âûõîä èç ïðîãðàììû." << std::endl;
+            std::cout << "Ã‚Ã»ÃµÃ®Ã¤ Ã¨Ã§ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã»." << std::endl;
             return;
         }
         else {
-            std::cout << "Íåâåðíûé âûáîð. Ïîïðîáóéòå åùå ðàç." << std::endl;
+            std::cout << "ÃÃ¥Ã¢Ã¥Ã°Ã­Ã»Ã© Ã¢Ã»Ã¡Ã®Ã°. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã¥Ã¹Ã¥ Ã°Ã Ã§." << std::endl;
         }
     }
 }
 
 void Level3() {
-    std::cout << "Âû íàõîäèòåñü íà óðîâíå 3." << std::endl;
-    // Ëîãèêà óðîâíÿ 3
+    std::cout << "Ã‚Ã» Ã­Ã ÃµÃ®Ã¤Ã¨Ã²Ã¥Ã±Ã¼ Ã­Ã  Ã³Ã°Ã®Ã¢Ã­Ã¥ 3." << std::endl;
+    // Ã‹Ã®Ã£Ã¨ÃªÃ  Ã³Ã°Ã®Ã¢Ã­Ã¿ 3
 
     while (true) {
-        std::cout << "Âûáåðèòå äåéñòâèå:" << std::endl;
-        std::cout << "1. Âåðíóòüñÿ íà óðîâåíü 2" << std::endl;
-        std::cout << "2. Âûõîä" << std::endl;
-        std::cout << "Âûáîð: ";
+        std::cout << "Ã‚Ã»Ã¡Ã¥Ã°Ã¨Ã²Ã¥ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã¥:" << std::endl;
+        std::cout << "1. Ã‚Ã¥Ã°Ã­Ã³Ã²Ã¼Ã±Ã¿ Ã­Ã  Ã³Ã°Ã®Ã¢Ã¥Ã­Ã¼ 2" << std::endl;
+        std::cout << "2. Ã‚Ã»ÃµÃ®Ã¤" << std::endl;
+        std::cout << "Ã‚Ã»Ã¡Ã®Ã°: ";
 
         int choice;
         std::cin >> choice;
@@ -117,11 +119,11 @@ void Level3() {
             return;
         }
         else if (choice == 2) {
-            std::cout << "Âûõîä èç ïðîãðàììû." << std::endl;
+            std::cout << "Ã‚Ã»ÃµÃ®Ã¤ Ã¨Ã§ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã»." << std::endl;
             return;
         }
         else {
-            std::cout << "Íåâåðíûé âûáîð. Ïîïðîáóéòå åùå ðàç." << std::endl;
+            std::cout << "ÃÃ¥Ã¢Ã¥Ã°Ã­Ã»Ã© Ã¢Ã»Ã¡Ã®Ã°. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã¥Ã¹Ã¥ Ã°Ã Ã§." << std::endl;
         }
     }
 }
@@ -140,10 +142,10 @@ void Level3() {
 
 
      void type1::Get_answer() {
-        cout << "Îòâåòîì ÿâëÿåòñÿ ëþáîå çíà÷åíèå Õ" << endl;
+        cout << "ÃŽÃ²Ã¢Ã¥Ã²Ã®Ã¬ Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã«Ã¾Ã¡Ã®Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã•" << endl;
     }
         void type1::show() {
-        cout << "Óðàâíåíèå 0 = 0" << endl;
+        cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ 0 = 0" << endl;
     }
 
 
@@ -152,10 +154,10 @@ void Level3() {
         A = a1;
     }
     void type2::Get_answer() {
-        cout << "Îòâåòîì ÿâëÿåòñÿ Õ = 0" << endl;
+        cout << "ÃŽÃ²Ã¢Ã¥Ã²Ã®Ã¬ Ã¿Ã¢Ã«Ã¿Ã¥Ã²Ã±Ã¿ Ã• = 0" << endl;
     }
     void type2::show() {
-        cout << "Óðàâíåíèå " << A << "*x^2 = 0" << endl;
+        cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ " << A << "*x^2 = 0" << endl;
     }
 
 
@@ -164,7 +166,7 @@ void Level3() {
         C = c1;
     }
     void type3::Get_answer() {
-        cout << "Êîðíåé íåò" << endl;
+        cout << "ÃŠÃ®Ã°Ã­Ã¥Ã© Ã­Ã¥Ã²" << endl;
     }
     void type3::show() {
         cout << C << " = 0" << endl;
@@ -181,18 +183,18 @@ void Level3() {
         if (k >= 0) {
             double x1 = sqrt(k);
             double x2 = sqrt(k) * (-1);
-            cout << "Êîðíè óðàâíåíèÿ: " << endl << "X1 = " << x1 << endl << "X2 = " << x2 << endl;
+            cout << "ÃŠÃ®Ã°Ã­Ã¨ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << endl << "X1 = " << x1 << endl << "X2 = " << x2 << endl;
         }
         else {
-            cout << "Êîðíåé íåò" << endl;
+            cout << "ÃŠÃ®Ã°Ã­Ã¥Ã© Ã­Ã¥Ã²" << endl;
         }
     }
     void type4::show() {
-        cout << "Óðàâíåíèå " << A << "*x^2 + " << C << " = 0" << endl;
+        cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ " << A << "*x^2 + " << C << " = 0" << endl;
     }
     void type4::Get_answer_podbor() {
         if ((((-1) * C) / A) < 0) {
-            cout << "Êîðíåé ìåòîäîì ïîäáîðà íåò" << endl;
+            cout << "ÃŠÃ®Ã°Ã­Ã¥Ã© Ã¬Ã¥Ã²Ã®Ã¤Ã®Ã¬ Ã¯Ã®Ã¤Ã¡Ã®Ã°Ã  Ã­Ã¥Ã²" << endl;
         }
         else {
             double min = abs(0 - A * (-20) * (-20) - C);
@@ -204,7 +206,7 @@ void Level3() {
                     x = i;
                 }
             }
-            cout << "Ïðèáëèæåííî, îäèí èç êîðíåé óðàâíåíèÿ: " << x << endl;
+            cout << "ÃÃ°Ã¨Ã¡Ã«Ã¨Ã¦Ã¥Ã­Ã­Ã®, Ã®Ã¤Ã¨Ã­ Ã¨Ã§ ÃªÃ®Ã°Ã­Ã¥Ã© Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << x << endl;
         }
     }
 
@@ -215,10 +217,10 @@ void Level3() {
         C = c1;
     }
     void type5::Get_answer() {
-        cout << "Êîðåíü óðàâíåíèÿ: " << (-1) * (C / B) << endl;
+        cout << "ÃŠÃ®Ã°Ã¥Ã­Ã¼ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << (-1) * (C / B) << endl;
     }
     void type5::show() {
-        cout << "Óðàâíåíèå " << B << "*x + " << C << " = 0" << endl;
+        cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ " << B << "*x + " << C << " = 0" << endl;
     }
     void type5::Get_answer_podbor() {
         double min = abs(0 - B * (-20) - C);
@@ -230,7 +232,7 @@ void Level3() {
                 x = i;
             }
         }
-        cout << "Ïðèáëèæåííî, îäèí èç êîðíåé óðàâíåíèÿ: " << x << endl;
+        cout << "ÃÃ°Ã¨Ã¡Ã«Ã¨Ã¦Ã¥Ã­Ã­Ã®, Ã®Ã¤Ã¨Ã­ Ã¨Ã§ ÃªÃ®Ã°Ã­Ã¥Ã© Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << x << endl;
     }
 
 
@@ -243,28 +245,28 @@ void Level3() {
     void type6::Get_answer() {
         double D = B * B - 4 * A * C;
         if (D < 0) {
-            cout << "Óðàâíåíèå íå èìååò äåéñòâèòåëüíûõ êîðíåé" << endl;
+            cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ Ã­Ã¥ Ã¨Ã¬Ã¥Ã¥Ã² Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã»Ãµ ÃªÃ®Ã°Ã­Ã¥Ã©" << endl;
         }
         else {
             if (D == 0) {
                 double x = ((-1) * B - sqrt(D)) / (2 * A);
-                cout << "Êîðåíü óðàâíåíèÿ: " << x << endl;
+                cout << "ÃŠÃ®Ã°Ã¥Ã­Ã¼ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << x << endl;
             }
             else {
                 double x1 = ((-1) * B - sqrt(D)) / (2 * A);
                 double x2 = ((-1) * B + sqrt(D)) / (2 * A);
-                cout << "Êîðíè óðàâíåíèÿ: " << endl;
+                cout << "ÃŠÃ®Ã°Ã­Ã¨ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << endl;
                 cout << "X1 = " << x1 << endl << "X2 = " << x2 << endl;
             }
         }
     }
     void type6::show() {
-        cout << "Óðàâíåíèå " << A << "*x^2 + " << B << "*x + " << C << " = 0" << endl;
+        cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ " << A << "*x^2 + " << B << "*x + " << C << " = 0" << endl;
     }
     void type6::Get_answer_podbor() {
         double D = B * B - 4 * A * C;
         if (D < 0) {
-            cout << "Óðàâíåíèå íå èìååò äåéñòâèòåëüíûõ êîðíåé" << endl;
+            cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ Ã­Ã¥ Ã¨Ã¬Ã¥Ã¥Ã² Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã»Ãµ ÃªÃ®Ã°Ã­Ã¥Ã©" << endl;
         }
         else {
             double min = abs(0 - A * (-20) * (-20) - B * (-20) - C);
@@ -276,7 +278,7 @@ void Level3() {
                     x = i;
                 }
             }
-            cout << "Ïðèáëèæåííî, îäèí èç êîðíåé óðàâíåíèÿ: " << x << endl;
+            cout << "ÃÃ°Ã¨Ã¡Ã«Ã¨Ã¦Ã¥Ã­Ã­Ã®, Ã®Ã¤Ã¨Ã­ Ã¨Ã§ ÃªÃ®Ã°Ã­Ã¥Ã© Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << x << endl;
         }
     }
 
@@ -286,10 +288,10 @@ void Level3() {
         B = b1;
     }
     void type7::Get_answer() {
-        cout << "Êîðåíü óðàâíåíèÿ: x = 0" << endl;
+        cout << "ÃŠÃ®Ã°Ã¥Ã­Ã¼ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: x = 0" << endl;
     }
     void type7::show() {
-        cout << "Óðàâíåíèå " << B << "*x = 0" << endl;
+        cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ " << B << "*x = 0" << endl;
     }
 
 
@@ -300,11 +302,11 @@ void Level3() {
     }
     void type8::Get_answer() {
         double x = ((-1) * B) / A;
-        cout << "Êîðíè óðàâíåíèÿ: " << endl;
+        cout << "ÃŠÃ®Ã°Ã­Ã¨ Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << endl;
         cout << "X1 = 0" << endl << "X2 = " << x << endl;
     }
     void type8::show() {
-        cout << "Óðàâíåíèå " << A << "*x^2 + " << B << "*x = 0 " << endl;
+        cout << "Ã“Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¥ " << A << "*x^2 + " << B << "*x = 0 " << endl;
     }
     void type8::Get_answer_podbor() {
         double min = abs(0 - A * (-20) * (-20) - B * (-20));
@@ -318,5 +320,5 @@ void Level3() {
                 }
             }
         }
-        cout << "Ïðèáëèæåííî, îäèí èç êîðíåé óðàâíåíèÿ: " << x << endl;
+        cout << "ÃÃ°Ã¨Ã¡Ã«Ã¨Ã¦Ã¥Ã­Ã­Ã®, Ã®Ã¤Ã¨Ã­ Ã¨Ã§ ÃªÃ®Ã°Ã­Ã¥Ã© Ã³Ã°Ã Ã¢Ã­Ã¥Ã­Ã¨Ã¿: " << x << endl;
     }
